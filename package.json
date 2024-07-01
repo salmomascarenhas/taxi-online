@@ -1,0 +1,23 @@
+{
+  "name": "taxi-online",
+  "version": "1.0.0",
+  "description": "Taxi service backend application using ddd and clean code and clean architecture made in TypeScript.",
+  "main": "index.js",
+  "repository": "git@github.com:salmomascarenhas/taxi-online.git",
+  "author": "salmomascarenhas <salmo.cruz@gmail.com>",
+  "license": "MIT",
+  "private": "false",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test:watch": "ts-jest --watchAll"
+  },
+  "dependencies": {
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12"
+  }
+}
